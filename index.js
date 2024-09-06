@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
   res.send('Perfect, your Bot turned ON💎');
 });
 app.listen(port, () => {
-  console.log(`🔗 Watching MoonStudios: http://localhost:${port}`);
-  console.log(`🔗 Powered By MoonStudios`);
+  console.log(`🔗 Watching Pivnoyjake: http://localhost:${port}`);
+  console.log(`🔗 Powered By Pivnoyjake`);
 });
 
 
@@ -73,7 +73,7 @@ function updateStatusAndSendMessages() {
 client.once('ready', () => {
   console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot is ready as ${client.user.tag}`);
   console.log(`\x1b[36m%s\x1b[0m`, `|    🎃BOT STATUS IS NOW CHANGED`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    📌MoonStudios IDEA`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    📌Pivnoyjake IDEA`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
